@@ -8,8 +8,9 @@ class demo
 {
 	public static void main(String[] args)
 	{
-		int num =99;
+		int num =60;
 		System.out.println(toHex(num));
+		System.out.println(Integer.toHexString(60));
 	}
 	
 	public static String toHex(int num)	
