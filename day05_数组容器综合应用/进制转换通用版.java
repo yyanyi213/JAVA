@@ -16,12 +16,12 @@ class demo
 	//转十六
 	public static String toHex(int num)
 	{
-		return  trans(num,4,15);
+		return  "0x"+trans(num,4,15);
 	}
 	//转八
 	public static String toOctal(int num)
 	{
-		return  trans(num,3,7);
+		return  "0"+trans(num,3,7);
 	}
 	
 	//转二
